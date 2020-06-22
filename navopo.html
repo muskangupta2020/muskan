@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation bar</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a href="" class="navbar-brand">
+				<img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" width="65px;">
+			</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+            <span class="navbar-toggler-icon"></span>
+        	</button>
+			<div class="collapse navbar-collapse" id="a">
+				<ul class="navbar-nav ml-auto" >
+					<li class="nav-item">
+						<a href="" class="nav-link">Home</a></li>
+					<li class="nav-item">
+						<a href="" class="nav-link">About</a></li>
+					<li class="nav-item">
+						<a href="" class="nav-link">Blog</a></li>
+					<li class="nav-item">
+						<a href="" class="nav-link">Class</a></li>
+					 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aa">Login</button>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<img src="img/th.jpg" style="width: 1370px;" class="img-fluid">
+
+	<div class="modal fade" id="aa">
+    <div class="modal-dialog" >
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login Form</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>Username : </label>
+            <input type="text" name="" class="form-control">
+          </div><!--col end-->
+          <div class="form-group">
+            <label>Password : </label>
+            <input type="password" name="" class="form-control">
+          </div><!--col end-->
+          <button class="btn-info">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+	
+</body>
+</html>
